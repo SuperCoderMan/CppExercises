@@ -93,20 +93,22 @@ Basic Programming with C++
 
    1. 基本数据类型
 
-      | 类型             | 同义表示                     | 值域                                                         | 占用空间(bits) |
-      | ---------------- | ---------------------------- | ------------------------------------------------------------ | -------------- |
-      | `bool`           |                              | $[0,1]$                                                      | 1              |
-      | `char`           |                              | $[-127,128]$                                                 | 8              |
-      | `unsigned char`  |                              | $[0,255]$                                                    | 8              |
-      | `short`          | `short int`                  | $[-2^{15},2^{15}-1]$                                         | 16             |
-      | `unsigned short` | `unsigned short int`         | $[0,2^{16}-1]$                                               | 16             |
-      | `int`            | `int signed` or `signed int` | $[-2^{31},2^{31}-1]$                                         | 32             |
-      | `unsigned`       | `unsigned int`               | $[0,2^{32}-1]$                                               | 32             |
-      | `long`           | `long int`                   | $[-2^{31},2^{31}-1]$                                         | 32             |
-      | `unsigned long`  | `unsigned long int`          | $[0,2^{32}-1]$                                               | 32             |
-      | `float`          |                              | $[-3.4028235\times 10^{38},-1.4\times 10^{-45}]$<br>$[1.4 \times 10^{-45},3.4028235\times 10^{38}]$ | 32*            |
-      | `double`         |                              | $[-1.7976931348623157\times 10^{308},-4.9\times 10^{-324}]$<br/>$[4.9-\times 10^{-324},1.7976931348623157\times 10^{308}]$ | 64\*           |
-      | `long double`    |                              | $[-1.18\times 10^{4932},-3.37\times 10^{-4932}]$<br/>$[3.37\times 10^{-4932},1.18\times 10^{4932}]$ | 80             |
+      | 类型             | 同义表示                     | 值域                                                         | 空间(bits) |
+      | ---------------- | ---------------------------- | ------------------------------------------------------------ | ---------- |
+      | `bool`           |                              | $[0,1]$                                                      | 1          |
+      | `char`           |                              | $[-127,128]$                                                 | 8          |
+      | `unsigned char`  |                              | $[0,255]$                                                    | 8          |
+      | `short`          | `short int`                  | $[-2^{15},2^{15}-1]$                                         | 16         |
+      | `unsigned short` | `unsigned short int`         | $[0,2^{16}-1]$                                               | 16         |
+      | `int`            | `int signed` or `signed int` | $[-2^{31},2^{31}-1]$                                         | 32         |
+      | `unsigned`       | `unsigned int`               | $[0,2^{32}-1]$                                               | 32         |
+      | `long`           | `long int`                   | $[-2^{31},2^{31}-1]$                                         | 32         |
+      | `unsigned long`  | `unsigned long int`          | $[0,2^{32}-1]$                                               | 32         |
+      | `float`          |                              | $[-3.4028235\times 10^{38},-1.4\times 10^{-45}]$<br>$[1.4 \times 10^{-45},3.4028235\times 10^{38}]$ | 32*        |
+      | `double`         |                              | $[-1.7976931348623157\times 10^{308},-4.9\times 10^{-324}]$<br/>$[4.9-\times 10^{-324},1.7976931348623157\times 10^{308}]$ | 64\*       |
+      | `long double`    |                              | $[-1.18\times 10^{4932},-3.37\times 10^{-4932}]$<br/>$[3.37\times 10^{-4932},1.18\times 10^{4932}]$ | 80         |
+
+      *公式渲染需安装Chrome插件 [MathJax Plugin for Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima/related)。*
 
       【注】\*为IEEE 754浮点数。
 
