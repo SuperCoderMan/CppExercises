@@ -32,11 +32,11 @@ void calculateCircleArea(void)
 {
 	// Declaration a constant variable
 	const double PI = 3.15159;
-
+	
 	// Declaration of variable
 	double radius;
 	double area;
-
+	
 	// Assign value
 	radius = 1.0; // Default value of radius
 	area = 0.0;
