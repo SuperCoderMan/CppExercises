@@ -1,9 +1,9 @@
 /*
 *┌───────────────────────────────────────┐
 *│ Project Name	:	CppExercises
-*│ File Name		:	hello_world.h
+*│ File Name		:	basic_sample.h
 *│ Description		:	N/A
-*│ Create Time		:	2020年6月5日16:48:07
+*│ Create Time		:	2020年6月5日17:16:13
 *│ Version			:	Ver 0.0.0.1
 *│ Author			:	Yu Mo (Email:286273384@qq.com)
 *│ Modification 	:	Initial version.
@@ -18,4 +18,5 @@
 
 #include <iostream>
 
-void printHelloWorld(void);
+// Function declarations
+void calculateCircleArea(void);

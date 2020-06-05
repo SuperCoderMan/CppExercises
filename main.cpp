@@ -16,7 +16,9 @@
 
 #include <iostream>
 #include "basic/hello_world.h"
+#include "basic/basic_sample.h"
 
+// Standard namespace
 using namespace std;
 
 /*
@@ -31,7 +33,8 @@ using namespace std;
 */
 int main(int argc, char* argv[])
 {
-	hello_world();
+	printHelloWorld();
+	calculateCircleArea();
 
 	return 0;
 }

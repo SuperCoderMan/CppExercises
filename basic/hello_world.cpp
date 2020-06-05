@@ -20,7 +20,7 @@ using namespace std;
 
 /*
 *©°©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©´
-*©¦ Function Name	:	hello_world                                   
+*©¦ Function Name	:	printHelloWorld                                   
 *©¦ Description		:	Print "Hello world".
 *©¦ Parameter		:	N/A
 *©¦ Return			:	N/A
@@ -28,7 +28,7 @@ using namespace std;
 *©¦ Author			:	Yu Mo (Email:286273384@qq.com)
 *©¸©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¼
 */
-void hello_world(void)
+void printHelloWorld(void)
 {
 	cout << "Hello world!" << endl;
 }
